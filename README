@@ -1,0 +1,37 @@
+TITLE
+cleanSwissTxt
+
+AUTHOR
+Joel Bez
+copernic67@lejoe.com
+
+DESCRIPTION
+This is a own motivated projet for reading the swiss teletext
+Don't look at the code. It was done at a hackday...
+
+GOALS
+Watch the news with the teletext with some shortcuts and without the ads
+Use stricly only the media teletext delivers without changing anything
+
+FEATURES
+Right and left key
+Change page as you type
+URl with history hash
+Fancy animation
+
+TODO
+Clean code
+Document code
+Port code to IE compatibility
+Port to YUI grid and fonts ?
+
+NEXT FEATURES
+Image map for the inline links
+Show up and down pages
+Languages switch
+Hide the ads on the bottom of the images
+"Reload every..." functionality
+Save favourite pages
+Add control panel view of all favourite pages
+Adapt the size of the image to the window
+Ameliorate the usability (delete key when typing a page number)
