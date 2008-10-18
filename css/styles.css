@@ -1,0 +1,69 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100%;
+    background-color: #fff;
+}
+
+body {
+    background-color: #4d3b2d;
+    color:#000;
+    font:100.01%/1.4 sans-serif;
+    text-align:center; /* horizontal centering for IE Win quirks */
+}
+
+#horizCenter { 
+    width:1px;
+    height:50%;
+    background-color:#fff;
+    margin-bottom:-21.25em; /* half of image's height */
+    float:left;
+}
+
+#image {
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    margin:0 auto;
+    position:relative; /* puts image in front of horizCenter */
+    text-align:left;
+    height:38.5em;
+    width:53em;
+    clear:left;
+    background-color:#000;
+    color:#fff;
+}
+
+#image img {
+    width: 50em;
+    padding: 2em 1.2em 2em 1em;
+}
+
+
+#loader.error {
+	padding-top: 150px;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#loader.loading {
+	padding-top: 300px;
+    background: url(img/spinner.gif) no-repeat center center;
+}
+
+#number {
+    -moz-border-radius-bottomleft:20px;
+    -moz-border-radius-bottomright:20px;
+    -webkit-border-bottom-left-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    background-color: #8abc00;
+    color: #fff;
+    font-weight:bold;
+    width:8em;
+    clear:left;
+    margin:0 auto;
+    position:relative;
+}
