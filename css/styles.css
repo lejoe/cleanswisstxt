@@ -51,7 +51,7 @@ body {
 
 #loader.loading {
 	padding-top: 300px;
-    background: url(img/spinner.gif) no-repeat center center;
+    background: url(../img/spinner.gif) no-repeat center center;
 }
 
 #number {
